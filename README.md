@@ -2,7 +2,7 @@
   <img src="http://rajamohan-s.github.io/snet/logo.png">
 </p>
 <p>
-Make simple URL request with SNet
+Make simple URL request with SNet for macOS & iOS.
 </p>
 
 ## Installation
