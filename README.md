@@ -8,7 +8,7 @@ Make simple URL request with SNet for macOS & iOS.
 ## Installation
 
 ### Using Cocoapods
-#### Swift 4.2
+#### Swift 4.2.1
 ```ruby
  pod 'SNet', '~> 0.0.1'
 ```
