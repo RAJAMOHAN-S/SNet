@@ -62,7 +62,7 @@ SNet.mode = .release
 ```
 
 ## Contribute
-We would love you for the contribution to **SNet**, check the ``LICENSE`` file for more info.
+I would love you for the contribution to **SNet**, check the ``LICENSE`` file for more info.
 
 ## Meta
 
