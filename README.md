@@ -5,6 +5,9 @@
 Make simple URL request with SNet for macOS & iOS.
 </p>
 
+[![Swift Version][swift-image]][swift-url]
+[![License][license-image]][license-url]
+
 ## Requirements
 
 - iOS 8.0+
