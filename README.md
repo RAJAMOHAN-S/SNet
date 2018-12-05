@@ -58,6 +58,6 @@ Rajamohan S – (https://rajamohan-s.github.io/)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/RAJAMOHAN-S/SNet](https://github.com/RAJAMOHAN-S)
+[LICENSE](https://github.com/RAJAMOHAN-S/SNet/blob/master/LICENSE.md)
 
 
