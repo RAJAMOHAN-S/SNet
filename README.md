@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://rajamohan-s.github.io/snet/logo.png">
+  <img src="https://rajamohan-s.github.io/swiftnet/logo.png">
 </p>
 <p>
 Make simple URL request with SNet for macOS & iOS.
