@@ -49,6 +49,18 @@ SNet.request(urlString, data: data, headers: headers, method:method) { (result) 
     print("Result:",result)
 }
 ```
+#### Debugging
+
+``` swift
+SNet.mode = .debug
+```
+
+#### Release
+
+``` swift
+SNet.mode = .release
+```
+
 ## Contribute
 We would love you for the contribution to **SNet**, check the ``LICENSE`` file for more info.
 
