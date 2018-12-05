@@ -10,7 +10,7 @@
 
 import Foundation
 
-public class SNet:URLSession{
+public final class SNet:URLSession{
     
     public static var mode = SNetMode.debug
     

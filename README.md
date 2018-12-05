@@ -2,11 +2,8 @@
   <img src="https://rajamohan-s.github.io/swiftnet/logo.png">
 </p>
 <p>
-Make simple URL request with SNet for macOS & iOS.
+Swift Net is a URLSession  for making URL Request.
 </p>
-
-[![Swift Version][swift-image]][swift-url]
-[![License][license-image]][license-url]
 
 ## Requirements
 
