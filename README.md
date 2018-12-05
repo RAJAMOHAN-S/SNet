@@ -2,12 +2,13 @@
   <img src="https://rajamohan-s.github.io/swiftnet/logo.png">
 </p>
 <p>
-Swift Net is a URLSession  for making URL Request.
+Swift Net is a URLSession  for making URL Request for iOS and macOS platforms.
 </p>
 
 ## Requirements
 
 - iOS 8.0+
+- macOS 10.9+
 - Xcode 10.1+
 
 ## Installation
@@ -22,7 +23,7 @@ pod 'SNet', '~> 0.0.1' #Swift 4.2.1
 1. Download and drop ```Source``` folder in your project.  
 2. Congratulations! 
 
-## Usage example
+## Usage
 
 #### Import SNet 
 ``` swift
@@ -50,6 +51,8 @@ SNet.request(urlString, data: data, headers: headers, method:method) { (result) 
 }
 ```
 #### Debugging
+
+To use mode  then use ``SNet.mode`` under ``didFinishLaunchingWithOptions``  under ``AppDelegate`` class to print all reaquest informations in console. Default mode is ``debug``.
 
 ``` swift
 SNet.mode = .debug
