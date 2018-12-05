@@ -24,10 +24,40 @@ pod 'SNet', '~> 0.0.1' #Swift 4.2.1
 
 ## Usage example
 
+#### Import SNet 
 ``` swift
 import SNet
-SNet.request("https://rajamohan-s.github.io/test/web.json", data: nil, headers: nil, method:.GET) { (result) in
+```
+#### Variables 
+``` swift
+let urlString = "https://rajamohan-s.github.io/test/web.json"
+var headers:[String:String]?
+let method = HTTPMethod.GET
+```
+#### Use dictionary type
+``` swift
+var data:[String:String]?
+```
+#### Use Data type
+``` swift
+var data:Data?
+```
+#### Make request
+``` swift
 
-print("Result:",result)
+SNet.request(urlString, data: data, headers: headers, method:method) { (result) in
+    print("Result:",result)
 }
 ```
+## Contribute
+We would love you for the contribution to **SNet**, check the ``LICENSE`` file for more info.
+
+## Meta
+
+Rajamohan S – (https://rajamohan-s.github.io/)
+
+Distributed under the MIT license. See ``LICENSE`` for more information.
+
+[https://github.com/RAJAMOHAN-S/SNet](https://github.com/RAJAMOHAN-S)
+
+
