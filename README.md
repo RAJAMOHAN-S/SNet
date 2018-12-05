@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://rajamohan-s.github.io/swiftnet/logo.png">
+  <img src="https://rajamohan-s.github.io/snet/logo.png">
 </p>
 <p>
 Swift Net is a URLSession  for making URL Request for iOS and macOS platforms.
