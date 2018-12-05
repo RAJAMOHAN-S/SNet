@@ -68,8 +68,8 @@ I would love you for the contribution to **SNet**, check the ``LICENSE`` file fo
 
 Rajamohan S – (https://rajamohan-s.github.io/)
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See [LICENSE](https://github.com/RAJAMOHAN-S/SNet/blob/master/LICENSE.md) for more information.
 
-[LICENSE](https://github.com/RAJAMOHAN-S/SNet/blob/master/LICENSE.md)
+
 
 
