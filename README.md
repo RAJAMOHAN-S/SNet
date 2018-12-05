@@ -18,9 +18,16 @@ Make simple URL request with SNet for macOS & iOS.
 pod 'SNet', '~> 0.0.1' #Swift 4.2.1
 ```
 
-``` swift
-import SNet
-```
 #### Manually
 1. Download and drop ```Source``` folder in your project.  
 2. Congratulations! 
+
+## Usage example
+
+``` swift
+import SNet
+SNet.request("https://rajamohan-s.github.io/test/web.json", data: nil, headers: nil, method:.GET) { (result) in
+
+print("Result:",result)
+}
+```
