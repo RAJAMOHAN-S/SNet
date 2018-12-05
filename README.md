@@ -46,8 +46,18 @@ var data:Data?
 #### Make request
 ``` swift
 
-SNet.request(urlString, data: data, headers: headers, method:method) { (result) in
-    print("Result:",result)
+SNet.request("https://rajamohan-s.github.io/test/web.json", data: nil, headers: nil, method:HTTPMethod.GET) { (result) in
+
+    if let error = result as? String{
+
+    print("Error:",error)
+    }
+
+    if let array = result as? [String]{
+
+    print("Object:",array)
+    }
+
 }
 ```
 #### Debugging
