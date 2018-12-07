@@ -14,4 +14,5 @@ public enum SNetMode{
     
     case debug
     case release
+    
 }
