@@ -16,7 +16,7 @@ Swift Net is a URLSession  for making URL Request for iOS and macOS platforms.
 ### Using Cocoapods
 
 ```ruby
-pod 'SNet', '~> 0.0.1' #Swift 4.2.1
+pod 'SNet', '~> 1.0' #Swift 4.2.1
 ```
 
 #### Manually
