@@ -20,7 +20,7 @@ pod 'SNet', '~> 0.0.1' #Swift 4.2.1
 ```
 
 #### Manually
-1. Download and drop ```Source``` folder in your project.  
+1. Download and drop [Source](https://github.com/RAJAMOHAN-S/SNet/tree/master/SNet/Source) folder in your project.  
 2. Congratulations! 
 
 ## Usage
