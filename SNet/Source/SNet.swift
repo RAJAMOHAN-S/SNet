@@ -46,11 +46,28 @@ public final class SNet:URLSession{
             }
         }else if let d = data as? Data{
             request.httpBody = d
+        }else if let param = data as? [String:Any]{
+            
+            do{
+                
+                let data = try JSONSerialization.data(withJSONObject: param, options: .init(rawValue: 0))
+                request.httpBody = data
+            }catch{
+                
+                if self.mode == .debug{
+                    print("\n=======Warning=========\n")
+                    print("URL:",request.url!.absoluteString)
+                    print("Headers:",request.allHTTPHeaderFields ?? "Nil")
+                    print("Method:",request.httpMethod ?? "Nil")
+                    print("Body: Body is [String:Any] but not convertible to JSON data")
+                    print("\n==============================\n")
+                }
+            }
         }
         
         request.allHTTPHeaderFields = headers
-      
-       if self.mode == .debug{
+        
+        if self.mode == .debug{
             print("\n==============================\n")
             print("URL:",request.url!.absoluteString)
             print("Headers:",request.allHTTPHeaderFields ?? "Nil")
@@ -77,15 +94,15 @@ public final class SNet:URLSession{
                         handler(json)
                     }catch{
                         
-                         if self.mode == .debug{
+                        if self.mode == .debug{
                             print("============= Error =============")
                             print("URL:",urlString)
                             
                             var parameters:String?
                             if let data = request.httpBody{
-
+                                
                                 let stringValue = String.init(data: data, encoding: .utf8)
-                               parameters  = stringValue?.replacingOccurrences(of: "[", with: "{").replacingOccurrences(of: "]", with: "}")
+                                parameters  = stringValue?.replacingOccurrences(of: "[", with: "{").replacingOccurrences(of: "]", with: "}")
                             }
                             print("Body:",parameters ?? "Nil")
                             print("Response:",String.init(data: data, encoding: .utf8) ?? "Nil")
