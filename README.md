@@ -50,6 +50,7 @@ SNet.request(urlString, data: data, headers: headers, method:method) { (result) 
 
     if let error = result as? String{
         print("Error:",error)
+        return
     }
 
     if let array = result as? [String]{
