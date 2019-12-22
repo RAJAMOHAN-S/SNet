@@ -125,6 +125,7 @@ public final class SNet:URLSession{
                         print("Response  data is nil")
                         print("============= Unknown Exception =============")
                     }
+                    
                     handler("Empty data!")
                 }
             }
